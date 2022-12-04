@@ -1,0 +1,454 @@
+/*------------------- common css start ----------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,small,ul,ol,button{
+            margin: 0;
+            padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{ 
+    text-decoration: none;
+}
+/*------------------- common css end ------------------*/
+/*------------------- nav start ----------------*/
+#nav{
+    background: #252d2f;
+}
+#nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    padding: 30px 21px;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .6s;
+    cursor: pointer;
+    transform: scale(1);
+}
+#nav ul li:hover a{
+    color: #2ecc71;
+    transform: scale(1.2);
+}
+/*------------------- nav end ------------------*/
+/*------------------- banner start ----------------*/
+#banner{
+    background: url(../img/banner_img.jpg);
+    height:1000px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#banner .banner_contant h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 55px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+#banner .banner_contant a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid white;
+    padding: 20px 35px;
+}
+/*------------------- banner end ------------------*/
+/*------------------- text contant start ----------------*/
+#taxt-box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+} 
+#taxt-box .taxt_item h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: #566366;
+}
+#taxt-box .taxt_contant .taxt_item p{
+    font-size: 18px;
+    color: #566366;
+}    
+/*------------------- text contant end ------------------*/
+/*------------------- about start ----------------*/
+#about{
+    padding: 60px 0 60px;
+    background: url(../img/about_img_1.jpg) #f2f2f1;
+    background-position: left;
+    background-repeat: no-repeat  
+}
+#about .heading_info{
+    margin-bottom: 30px;
+}
+#about .heading_info h2{
+    color: #566366;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+#about .heading_info p{
+    font-size: 18px;
+    color: #919191;
+}
+#about .logo_text_info img{
+    padding-top: 40px;
+}
+#about .logo_text_info h3{
+    color: #566366;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0 15px;
+}
+#about .logo_text_info p{ 
+            font-size: 18px; 
+            color: #919191;  
+}
+/*------------------- about end ------------------*/
+/*------------------- my skill start ----------------*/
+#my_skill{
+    margin: 60px 0 60px;
+    color: #919191;
+}
+#my_skill .text h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+#my_skill .text p{
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+#my_skill .text a{
+    color: #2ecc71;
+    text-transform: uppercase;
+    border: 3px solid #2ecc71;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#my_skill .table{
+    padding-left: 40px;              
+}
+#my_skill .table h4{
+    color: #566366;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#my_skill .table .box{
+    width: 560px;
+    height: 30px;
+    background-color: #f2f2f1;
+}
+#my_skill .table .up_box{
+        text-align: right;
+        line-height: 14px;
+        font-size: 18px;
+        font-weight: 800;
+        color: white;
+}
+#my_skill .table_1 .up_box{
+    width: 90%;
+    height: 30px;
+    background-color: #2ecc71;
+}
+#my_skill .table_2 .up_box{
+width: 80%;
+height: 30px;
+background-color: #2ecc71;
+}
+#my_skill .table_3 .up_box{
+width: 90%;
+height: 30px;
+background-color: #2ecc71;
+}
+#my_skill .table_4 .up_box{
+width: 70%;
+height: 30px;
+background-color: #2ecc71;
+}
+/*------------------- my skill end ------------------*/
+/*------------------- resume start ----------------*/
+#resume{
+    background-color: #f2f2f1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#resume .resume_info{        
+    color: #919191;        
+}
+#resume .resume_info h4{ 
+            font-size: 30px;
+            font-weight: 700;
+            color: #566366;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+}
+#resume .resume_info p{
+            font-size: 18px;
+            padding-bottom: 70px;
+}
+#resume .resume_info a{
+    color: #2ecc71;
+    text-transform: uppercase;
+    border: 3px solid #2ecc71;
+    padding: 20px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+/*------------------- resume end ------------------*/
+/*------------------- education start ----------------*/
+#education{
+    margin-top: 80px;
+    padding-bottom: 80px;
+    color: #919191;
+    border-bottom: 2px solid #cccccc;
+}
+#education .edu-_-info{
+    font-size: 18px;
+}
+#education .edu-_-info h2{
+    color: #566366;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+#education .result{
+    color: #919191;
+    font-size: 18px;
+    padding-left: 50px;
+}
+#education .result h4{
+    color: #566366;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+#education .result p2{
+    font-weight: 500;
+}
+#education .result p3{
+    background-color: #2ecc71;
+    color: white;
+    font-size: 14px;
+    font-size: 700;
+    padding: 10px 10px;                
+}
+/*------------------- education end ------------------*/
+/*------------------- Experience start ----------------*/
+#experience{
+    margin: 80px 0 80px;
+}
+#experience .experience_text{
+    color: #919191;
+    font-size: 18px;
+}
+#experience .experience_text h4{ 
+    color: #566366;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+#experience .experience_info{
+    color: #919191;
+    font-size: 18px;
+    padding-left: 40px;
+}
+#experience .experience_info h4{
+    color: #566366;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+#experience .experience_info p2{
+    font-weight: 500;
+}
+#experience .experience_info p3{
+    background-color: #2ecc71;
+    color: white;
+    font-size: 14px;
+    font-size: 700;
+    padding: 7px 10px; 
+}
+/*------------------- Experience end ------------------*/
+/*------------------- John_Stone start ----------------*/
+#John_Stone{
+    background-color: #f2f2f1;
+    padding-top: 100px;
+    padding-bottom: 100px;              
+}
+#John_Stone .J-S-_info p{
+            color: #919191;
+            font-size: 24px;
+            padding-bottom: 45px;
+}
+#John_Stone .J-S-_info h6{
+            color: #566366;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 700;
+}
+/*------------------- John_Stone end ------------------*/
+/*------------------- portfolio start ----------------*/
+#portfolio{
+    margin: 80px 0 60px;
+}
+#portfolio .text_info h3{
+    color: #566366;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+#portfolio .text_info p{
+    font-size: 18px;
+    color: #919191;
+    padding-bottom: 60px;
+}
+#portfolio img{
+    padding: 20px;
+}
+#portfolio .img{
+    position: relative;
+}
+#portfolio .img .overlay{
+        position: absolute;
+        font-size: 60px;
+        color: white;
+        background-color: rgba(45, 203, 113, .60);
+        display: flex;
+        flex-wrap: wrap;
+        top: 20px;
+        bottom: 20px;
+        left: 32px;
+        right: -19px;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0);
+        transition: .6s;
+}
+#portfolio .img:hover .overlay{
+    transform: scale(1);
+}
+/*------------------- portfolio end ------------------*/
+/*------------------- contact start ----------------*/
+#bottom_foot{
+    background-color: #252e30;
+    color: white;
+    padding:50px 0 80px;                
+}
+#bottom_foot .bottom_info h3{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+#bottom_foot .bottom_info p{
+    color: #919191;
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+#bottom_foot .bottom_info .text_i p{
+color: white;
+padding-bottom: 2px;
+}
+#bottom_foot .bottom_info a{
+    color: #919191;
+    font-size: 18px;
+}
+#bottom_foot .bottom_form input,
+#bottom_foot .bottom_form textarea{
+                display: block;
+                width: 100%;
+                color: white;
+                background-color: #4b5456;
+                border: none;
+                font-size: 18px;
+                padding: 15px 15px;
+}
+#bottom_foot .bottom_form label{
+                display: block;
+                color: white;
+                font-size: 18px;
+                margin: 40px 0 20px;
+}
+#bottom_foot .bottom_form label span{
+                color: #919191;
+}
+#bottom_foot .bottom_form textarea{
+    resize: vertical;
+    height: 280px;
+}
+#bottom_foot .bottom_form button{
+    color: white;
+    background-color: #191f21;                
+    border: none;
+    margin-top: 40px;
+    padding: 20px 38px;
+}
+#bottom_foot .bottom_form button p{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#bottom_foot .bottom_form input:focus,
+#bottom_foot .bottom_form textarea:focus{
+            outline: 0;
+}
+/*------------------- contact end ------------------*/
+/*------------------- footer start ----------------*/
+#footer{
+    padding: 45px 0 45px;
+    background-color: #191f21;
+}
+#footer .foot_text p{
+            color: #4b5456;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+}
+#footer .foot_icon{
+        margin-top: 20px;
+        padding-left: 18px;
+}
+#footer .foot_icon ul{
+        display: flex;
+}
+#footer .foot_icon ul li{
+        margin-right: 15px;
+}
+#footer .foot_icon ul li a i{
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 38px;
+            color: #191f21;
+            background-color: #4b5456;
+            border-radius: 50%;
+            border: 1px solid #4b5456;
+            transition: .5s;
+            transform: scale(1);
+}
+#footer .foot_icon ul li:hover a i{
+            color: white;
+            transform: scale(1.2);
+}
+/*------------------- footer end ------------------*/
